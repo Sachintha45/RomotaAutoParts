@@ -1,3 +1,3 @@
-document.querySelector('h1').addEventListener('click', () => {
-    alert('Hey there!');
+document.querySelector('.main-button').addEventListener('click', function() {
+    alert('Button clicked!');
 });
