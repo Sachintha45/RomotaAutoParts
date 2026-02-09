@@ -1,1 +1,3 @@
-console.log('Welcome to the application!');
+document.querySelector('h1').addEventListener('click', () => {
+    alert('Hey there!');
+});
